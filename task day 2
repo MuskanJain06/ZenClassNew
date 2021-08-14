@@ -4,3 +4,24 @@
 4.	Javascript is capable enough to add HTML and play with the DOM.	Nodejs does not have capability to add HTML tags.
 5.	Javascript can run in any browser engine as like JS core in safari and Spidermonkey in Firefox.	Nodejs can only run in V8 engine of google chrome.
 
+console.log(typeof(1));
+        console.log(typeof(1.1));
+        console.log(typeof('1.1'));
+        console.log(typeof(true));
+        console.log(typeof(null));
+        console.log(typeof(undefined));
+        console.log(typeof([]));
+        console.log(typeof({}));
+        console.log(typeof(NaN));
+        
+number
+number
+string
+boolean
+object
+undefined
+object
+object
+number
+
+The prototype is an object that is associated with every functions and objects by default in JavaScript, where function's prototype property is accessible and modifiable and object's prototype property (aka attribute) is not visible.
